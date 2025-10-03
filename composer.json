@@ -1,0 +1,29 @@
+{
+    "name": "volodymyr/laravel-cinememo-button",
+    "description": "🎬 A reusable Laravel Blade component for cinema-style animated buttons with TailwindCSS.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Volodymyr\\LaravelCinememoButton\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Volodymyr\\LaravelCinememoButton\\CinememoButtonServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Volodymyr Honcharov",
+            "email": "ladimirvm87@gmail.com"
+        }
+    ],    
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    }
+}
