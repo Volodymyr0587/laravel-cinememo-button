@@ -30,6 +30,7 @@ In your Blade views, use the component:
 | `size`    | string      | `sm`, `md`, `lg`, `xl`                                                                 | `md`    |
 | `palette` | string      | `gold`, `red`, `silver`, `neon`, `blue`, `purple`, `white`, `black`, `green`, `orange` | `gold`  |
 | `glow`    | bool        | Adds glowing shadow effect                                                             | `false` |
+| `disabled`| bool        | Adds disable effect                                                                    | `false` |
 
 ## 🎨 Customization
 You can publish the Blade view and modify it:
